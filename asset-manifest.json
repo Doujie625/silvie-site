@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Doujie625.github.io/silvie-site/static/css/main.cdde1112.css",
-    "main.js": "/Doujie625.github.io/silvie-site/static/js/main.d98fbf64.js",
-    "static/js/787.5fd9ca3f.chunk.js": "/Doujie625.github.io/silvie-site/static/js/787.5fd9ca3f.chunk.js",
-    "static/media/Silvie_046-adj-285x.jpg": "/Doujie625.github.io/silvie-site/static/media/Silvie_046-adj-285x.87119d2cd11c9aa970f7.jpg",
-    "static/media/b.home.jpg": "/Doujie625.github.io/silvie-site/static/media/b.home.08da9b401acbb22df5ba.jpg",
-    "static/media/logo-text_03.gif": "/Doujie625.github.io/silvie-site/static/media/logo-text_03.8ab0b4c5f22d224c0775.gif",
-    "index.html": "/Doujie625.github.io/silvie-site/index.html",
-    "main.cdde1112.css.map": "/Doujie625.github.io/silvie-site/static/css/main.cdde1112.css.map",
-    "main.d98fbf64.js.map": "/Doujie625.github.io/silvie-site/static/js/main.d98fbf64.js.map",
-    "787.5fd9ca3f.chunk.js.map": "/Doujie625.github.io/silvie-site/static/js/787.5fd9ca3f.chunk.js.map"
+    "main.css": "/silvie-site/static/css/main.cdde1112.css",
+    "main.js": "/silvie-site/static/js/main.0be90a92.js",
+    "static/js/787.5fd9ca3f.chunk.js": "/silvie-site/static/js/787.5fd9ca3f.chunk.js",
+    "static/media/Silvie_046-adj-285x.jpg": "/silvie-site/static/media/Silvie_046-adj-285x.87119d2cd11c9aa970f7.jpg",
+    "static/media/b.home.jpg": "/silvie-site/static/media/b.home.08da9b401acbb22df5ba.jpg",
+    "static/media/logo-text_03.gif": "/silvie-site/static/media/logo-text_03.8ab0b4c5f22d224c0775.gif",
+    "index.html": "/silvie-site/index.html",
+    "main.cdde1112.css.map": "/silvie-site/static/css/main.cdde1112.css.map",
+    "main.0be90a92.js.map": "/silvie-site/static/js/main.0be90a92.js.map",
+    "787.5fd9ca3f.chunk.js.map": "/silvie-site/static/js/787.5fd9ca3f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cdde1112.css",
-    "static/js/main.d98fbf64.js"
+    "static/js/main.0be90a92.js"
   ]
 }
