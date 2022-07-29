@@ -1,0 +1,15 @@
+Subheader Settings:
+
+Font: Arial 24 
+Stroke: None
+Fill: #00005A
+
+Floating Selection
+Antialias 
+
+Drop Shadow:
+-Offset, Vertical: 1
+-Offset, horizontal: 1
+-Opacity: 80
+-Blur: 3.7
+-Color: #000000 
