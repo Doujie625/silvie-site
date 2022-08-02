@@ -2,6 +2,22 @@
   text-align: center;
 }
 
+.Nav-upper {
+  /* flex-grow: 100; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo{
+  /* display: flex;
+  align-items: center;
+  justify-content: space-between; */
+}
+.links{
+  height: 150px;
+  width: 528px;
+}
+
 a {
   color: blue;
   padding: 2px;
