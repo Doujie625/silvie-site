@@ -9,9 +9,10 @@ const Home = function() {
             <br></br>
             <div className="body">
                 <div className="left"> 
-                    <img src={home_logo} /><br/>
+                    <img src={home_logo} /><br/><br/>
                 My name is Silvie Opatrn and I am a native Czech speaker. 
-                I was born in Prague and lived in the Czech Republic until the age of 18.<br/><br/>
+                I was born in Prague and lived in the Czech Republic until the age of 18.
+                <br/><br/>
                 I have been teaching Czech to private students since 1999 on an individual 
                 basis and in small groups of up to eight students. During that time I have 
                 been designing lesson plans based on individual student needs and interests 
@@ -46,6 +47,9 @@ const Home = function() {
                 "Silvie is an excellent instructor. She is especially helpful with
                 pronunciation. She can explain grammar in an easy to understand manner. 
                 She is very patient."
+                <br></br>
+                <br></br>
+                - Scott Timmons, Judge
                 </div>
 
             </div>

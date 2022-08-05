@@ -1,39 +1,36 @@
-.App {
-  text-align: center;
-}
 
 .Nav-upper {
-  /* flex-grow: 100; */
   display: flex;
+  position: absolute;
+  text-align: center;
   justify-content: center;
-  align-items: center;
 }
-.logo{
-  /* display: flex;
-  align-items: center;
-  justify-content: space-between; */
-}
-.links{
+
+.bg-image{
   height: 150px;
   width: 528px;
 }
-
+.links {
+  text-align: center;
+}
 a {
   color: blue;
   padding: 2px;
 }
-
 .body {
   display: grid;
   grid-template-columns: 3fr, 1fr;
 }
-
 .left {
   grid-column: 1 / 2;
 }
 .right {
   grid-column: 2 / 3;
+  text-align: center;
 }
 li {
   list-style-image: url(/Users/devinjansa/Freelance/cestina/silvie-site/src/images/bullet.gif);
+}
+.body{
+  margin-top: 150px;
 }

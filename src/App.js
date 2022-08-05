@@ -1,6 +1,8 @@
 import './App.css';
 import { Routes, Route, Link, Navigate } from "react-router-dom";
 import { useState } from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css'
+
 
 import Home from './Components/Pages/Home'
 import Contact from './Components/Pages/Contact'
@@ -54,16 +56,16 @@ function App() {
           <div className='logo'>
             <Link to="/" > <img className="Home" src={logo} onClick={handleImg}/></Link>
           </div>
-          <div className='links' style={{backgroundImage: `url(${navImg})`}}>
+          <div className='bg-image' style={{backgroundImage: `url(${navImg})`}}>
           </div>
-        </div>
-        <div className='Nav-lower'>
-          <Link to="Contact" ><a className='Contact' onClick={handleImg}>Contact</a></Link>
-          <Link to="/Individual" ><a className='Private_Lessons' onClick={handleImg}>Private Lessons</a></Link>|
-          <Link to="/Pronounciation" ><a className='Pronounciation' onClick={handleImg}>Pronounciation</a></Link>|
-          <Link to="/Books" ><a className='Books' onClick={handleImg}>Books</a></Link>|
-          <Link to="/Resources" ><a className='Resources' onClick={handleImg}>Resources</a></Link>|
-          <Link to="/Testimonials" ><a className='Testimonials' onClick={handleImg}>Testimonials</a></Link>
+          <div className='links'>
+            <Link to="Contact" ><a className='Contact' onClick={handleImg}>Contact</a></Link>|
+            <Link to="/Individual" ><a className='Private_Lessons' onClick={handleImg}>Private Lessons</a></Link>|
+            <Link to="/Pronounciation" ><a className='Pronounciation' onClick={handleImg}>Pronounciation</a></Link>|
+            <Link to="/Books" ><a className='Books' onClick={handleImg}>Books</a></Link>|
+            <Link to="/Resources" ><a className='Resources' onClick={handleImg}>Resources</a></Link>|
+            <Link to="/Testimonials" ><a className='Testimonials' onClick={handleImg}>Testimonials</a></Link>
+          </div>
         </div>
       </nav>
       
