@@ -6,7 +6,6 @@
   display: flex
 }
 
-
 .bg-image{
   background-repeat: no-repeat;
   height: 200px;
@@ -71,6 +70,13 @@ li {
 }
 
 @media screen and (max-width: 480px) {
+  .bg-image {
+    display: none;
+  }
+
+
+
+
   .format {
     grid-template-rows: 1fr, 4fr;
   }

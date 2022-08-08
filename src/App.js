@@ -30,7 +30,6 @@ function App() {
 
   useEffect(() => {
     console.log(page)
-
   }, [page])
 
   const handleImg = (e) => {
