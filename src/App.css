@@ -24,13 +24,7 @@ a {
   display: grid;
   grid-template-rows: 3fr, 1fr;
 }
-.left {
-  grid-row: 2 / 3;
-}
-.right {
-  grid-row: 1 / 2;
-  text-align: center;
-}
+
 li {
   list-style-image: url(/Users/devinjansa/Freelance/cestina/silvie-site/src/images/bullet.gif);
 }
@@ -46,7 +40,7 @@ li {
 .icon {
   grid-column: 1 / 2;
   padding: 10px;
-
+  text-align: center;
 }
 .text {
   grid-column: 2 / 3;
@@ -66,4 +60,25 @@ li {
 
 .Routes {
   margin: 100px;
+}
+
+@media screen and (min-width: 2000px) {
+  
+}
+
+@media screen and (max-width: 990px) {
+  
+}
+
+@media screen and (max-width: 480px) {
+  .format {
+    grid-template-rows: 1fr, 4fr;
+  }
+  .icon {
+    grid-row: 1 / 2;
+  }
+  .text {
+    grid-row: 2 / 3;
+    grid-column: 1 / 2;
+  }
 }

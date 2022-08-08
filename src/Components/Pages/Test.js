@@ -9,7 +9,9 @@ const Test = function(props) {
     const silvieImage = silvie.map(image =>
         <div className="format">
         <div className="icon" key={image.id}>
-            <img src={image.image} />
+            <img src={image.image} /><br/>
+            <font className="phone">(206) 779-0530</font><br/>
+            <a className="email" href="mailto:Silvie.Opatrna@gmail.com">Silvie.Opatrna@gmail.com</a><br/>
         </div>
         <div className="text">
             <div className="quote">
@@ -25,6 +27,7 @@ const Test = function(props) {
     
     return (
         <div className="format">
+
             {silvieImage[0]}
         </div>
     )
