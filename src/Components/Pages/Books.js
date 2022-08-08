@@ -60,28 +60,6 @@ const Books = function() {
 
                 </div>
 
-                <div className="right">
-                (206) 779-0530 <br/>
-                Silvie.Opatrna@gmail.com <br/>
-                    <div>
-                        <img src={silvie} />
-
-                    </div>
-
-                    "I am learning to sing a seven song cycle by Dvorak now. Silvie is helping me with my diction. She explained
-                    the difference between using the soft pallet versus using the hard pallet and the correct tongue position and structures of the mouth involved in producing
-                    the sounds. Also, she translated the songs
-                    word by word and explained the meaning
-                    of the lyrics very well.
-                    She really has a good sense of poetry.
-                    I strongly
-                    recommend her."
-                <br></br>
-                <br></br>
-                - Joo-Young Jung,
-                DMA voice student
-                </div>
-
             </div>
         </div>
     )

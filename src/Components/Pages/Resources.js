@@ -77,25 +77,6 @@ const Resources = function() {
                 </ul>
 
                 </div>
-
-                <div className="right">
-                (206) 779-0530 <br/>
-                Silvie.Opatrna@gmail.com <br/>
-                    <div>
-                        <img src={silvie} />
-
-                    </div>
-
-                "Each lesson is well-planned and focuses on building speaking and listening skills. Silvie is truly talented, has a personable demeanor
-                and really enjoys teaching. I feel that I am receiving a high level of quality with Silvie and
-                can easily recommend
-                her as a Czech language teacher."
-                <br></br>
-                <br></br>
-                - Nancy Smalley,
-                Registered Massage Therapist
-                </div>
-
             </div>
         </div>
     )

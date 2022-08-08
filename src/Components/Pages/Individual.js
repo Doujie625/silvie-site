@@ -2,11 +2,13 @@ import React from "react"
 import ind_logo from './../../images/sub.individual.gif'
 import silvie from './../../images/Silvie_085-adj-285x.jpg'
 
+import Test from "./Test"
 
 const Individual = function() {
     
     return (
         <div className="Home">
+
             <br></br>
             <div className="body">
                 <div className="left"> 
@@ -76,28 +78,6 @@ const Individual = function() {
                 based on what students need to learn and practice.
                 </div>
 
-
-                <div className="right">
-                (206) 779-0530 <br/>
-                Silvie.Opatrna@gmail.com <br/>
-                    <div>
-                        <img src={silvie} />
-
-                    </div>
-
-                    "Silvie is a patient
-                    teacher with an
-                    excellent sense of
-                    humor – which one
-                    needs in teaching
-                    (or learning) a foreign language. She does a wonderful job of
-                    catering to a student's needs and creating lessons that improve
-                    the student in
-                    those areas."
-                <br></br>
-                <br></br>
-                - Anne-Marie Davidson, Research Analyst
-                </div>
 
             </div>
         </div>

@@ -1,16 +1,19 @@
 
 .Nav-upper {
-  display: flex;
-  position: absolute;
+  /* position: absolute; */
   text-align: center;
   justify-content: center;
+  display: flex
 }
 
+
 .bg-image{
-  height: 150px;
-  width: 528px;
+  background-repeat: no-repeat;
+  height: 200px;
+  width: auto;
 }
 .links {
+  margin-top: 150px;
   text-align: center;
 }
 a {
@@ -19,18 +22,48 @@ a {
 }
 .body {
   display: grid;
-  grid-template-columns: 3fr, 1fr;
+  grid-template-rows: 3fr, 1fr;
 }
 .left {
-  grid-column: 1 / 2;
+  grid-row: 2 / 3;
 }
 .right {
-  grid-column: 2 / 3;
+  grid-row: 1 / 2;
   text-align: center;
 }
 li {
   list-style-image: url(/Users/devinjansa/Freelance/cestina/silvie-site/src/images/bullet.gif);
 }
 .body{
-  margin-top: 150px;
+  /* margin-top: 180px; */
+}
+
+.format {
+  display: grid;
+  grid-template-columns: 1fr, 4fr;
+  padding: 30px;
+}
+.icon {
+  grid-column: 1 / 2;
+  padding: 10px;
+
+}
+.text {
+  grid-column: 2 / 3;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-rows: 1fr, 1fr;
+}
+.quote {
+  grid-row: 1 / 2;
+}
+.student {
+  grid-row: 2 / 3;
+  text-align: right;
+  margin-right: 50px;
+}
+
+.Routes {
+  margin: 100px;
 }

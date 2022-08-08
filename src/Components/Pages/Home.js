@@ -2,10 +2,13 @@ import React from "react"
 import home_logo from './../../images/sub.home.gif'
 import silvie from './../../images/Silvie_046-adj-285x.jpg'
 
+import Test from "./Test"
+
 const Home = function() {
     
     return (
         <div className="Home">
+
             <br></br>
             <div className="body">
                 <div className="left"> 
@@ -36,21 +39,6 @@ const Home = function() {
                     </ul>
                 </div>
 
-                <div className="right">
-                (206) 779-0530 <br/>
-                Silvie.Opatrna@gmail.com <br/>
-                    <div>
-                        <img src={silvie} />
-
-                    </div>
-
-                "Silvie is an excellent instructor. She is especially helpful with
-                pronunciation. She can explain grammar in an easy to understand manner. 
-                She is very patient."
-                <br></br>
-                <br></br>
-                - Scott Timmons, Judge
-                </div>
 
             </div>
         </div>

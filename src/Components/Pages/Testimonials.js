@@ -98,22 +98,6 @@ const Testimonials= function() {
                 - Leslie Ramier, Business Owner and English Teacher
                 </div>
 
-                <div className="right">
-                (206) 779-0530 <br/>
-                Silvie.Opatrna@gmail.com <br/>
-                    <div>
-                        <img src={silvie} />
-
-                    </div>
-
-                "Silvie is an exceptional teacher. She has a great motivating nature and 
-                is a pleasure to be around. I highly recommend her."
-                <br></br>
-                <br></br>
-                - Dayla Ferguson,
-                English teacher
-                </div>
-
             </div>
         </div>
     )

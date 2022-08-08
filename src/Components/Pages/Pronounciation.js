@@ -36,31 +36,6 @@ const Pronounciation = function() {
 
                 </div>
 
-                <div className="right">
-                (206) 779-0530 <br/>
-                Silvie.Opatrna@gmail.com <br/>
-                    <div>
-                        <img src={silvie} />
-
-                    </div>
-
-                    "Silvie is a great
-                    teacher and made our lessons both thorough
-                    and fun. While she
-                    tailored my lessons to
-                    my specific needs and
-                    the purpose of my trip
-                    to the Czech Republic,
-                    she stressed grammar fundamentals. Learning with her made me want
-                    to continue to learn
-                    more advanced
-                    grammar as well as improve my speaking skills."
-                <br></br>
-                <br></br>
-                - Charles Reidy,
-                Photographer
-                </div>
-
             </div>
         </div>
     )
