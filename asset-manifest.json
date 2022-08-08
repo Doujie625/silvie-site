@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/silvie-site/static/css/main.1ac2c862.css",
-    "main.js": "/silvie-site/static/js/main.346625e7.js",
+    "main.css": "/silvie-site/static/css/main.de8453cf.css",
+    "main.js": "/silvie-site/static/js/main.eed3c5dd.js",
     "static/js/787.5fd9ca3f.chunk.js": "/silvie-site/static/js/787.5fd9ca3f.chunk.js",
     "static/media/Silvie_265-adj-285x.jpg": "/silvie-site/static/media/Silvie_265-adj-285x.2a5dd98daf3c9c234216.jpg",
     "static/media/Silvie_085-adj-285x.jpg": "/silvie-site/static/media/Silvie_085-adj-285x.6d9a8d5f4c2f802594e9.jpg",
@@ -19,12 +19,12 @@
     "static/media/b.individual.jpg": "/silvie-site/static/media/b.individual.b25bd5d4179806f30692.jpg",
     "static/media/logo-text_03.gif": "/silvie-site/static/media/logo-text_03.8ab0b4c5f22d224c0775.gif",
     "index.html": "/silvie-site/index.html",
-    "main.1ac2c862.css.map": "/silvie-site/static/css/main.1ac2c862.css.map",
-    "main.346625e7.js.map": "/silvie-site/static/js/main.346625e7.js.map",
+    "main.de8453cf.css.map": "/silvie-site/static/css/main.de8453cf.css.map",
+    "main.eed3c5dd.js.map": "/silvie-site/static/js/main.eed3c5dd.js.map",
     "787.5fd9ca3f.chunk.js.map": "/silvie-site/static/js/787.5fd9ca3f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1ac2c862.css",
-    "static/js/main.346625e7.js"
+    "static/css/main.de8453cf.css",
+    "static/js/main.eed3c5dd.js"
   ]
 }
