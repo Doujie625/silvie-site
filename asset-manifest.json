@@ -1,12 +1,14 @@
 {
   "files": {
-    "main.css": "/silvie-site/static/css/main.2fea3ed6.css",
-    "main.js": "/silvie-site/static/js/main.3d5a8b9e.js",
+    "main.css": "/silvie-site/static/css/main.731dd312.css",
+    "main.js": "/silvie-site/static/js/main.d4f4f92a.js",
     "static/js/787.5fd9ca3f.chunk.js": "/silvie-site/static/js/787.5fd9ca3f.chunk.js",
     "static/media/Silvie_265-adj-285x.jpg": "/silvie-site/static/media/Silvie_265-adj-285x.2a5dd98daf3c9c234216.jpg",
     "static/media/Silvie_085-adj-285x.jpg": "/silvie-site/static/media/Silvie_085-adj-285x.6d9a8d5f4c2f802594e9.jpg",
     "static/media/Silvie_120-adj-285x.jpg": "/silvie-site/static/media/Silvie_120-adj-285x.174a61f92e5b40fe7025.jpg",
     "static/media/Silvie_046-adj-285x.jpg": "/silvie-site/static/media/Silvie_046-adj-285x.87119d2cd11c9aa970f7.jpg",
+    "static/media/URW_Art_Gothic_W01_Normal.ttf": "/silvie-site/static/media/URW_Art_Gothic_W01_Normal.223d93e1309b365fa6a1.ttf",
+    "static/media/artgothicbold.ttf": "/silvie-site/static/media/artgothicbold.ee7b203d9ecab552afa9.ttf",
     "static/media/Silvie_129-adj-285x.jpg": "/silvie-site/static/media/Silvie_129-adj-285x.18c6b2f15881a4724841.jpg",
     "static/media/Silvie_184-adj-285x.jpg": "/silvie-site/static/media/Silvie_184-adj-285x.052c4839fa551886cb7b.jpg",
     "static/media/Silvie_153-adj-285x.jpg": "/silvie-site/static/media/Silvie_153-adj-285x.79669a7445d7a6779ec9.jpg",
@@ -19,12 +21,12 @@
     "static/media/b.individual.jpg": "/silvie-site/static/media/b.individual.b25bd5d4179806f30692.jpg",
     "static/media/logo-text_03.gif": "/silvie-site/static/media/logo-text_03.8ab0b4c5f22d224c0775.gif",
     "index.html": "/silvie-site/index.html",
-    "main.2fea3ed6.css.map": "/silvie-site/static/css/main.2fea3ed6.css.map",
-    "main.3d5a8b9e.js.map": "/silvie-site/static/js/main.3d5a8b9e.js.map",
+    "main.731dd312.css.map": "/silvie-site/static/css/main.731dd312.css.map",
+    "main.d4f4f92a.js.map": "/silvie-site/static/js/main.d4f4f92a.js.map",
     "787.5fd9ca3f.chunk.js.map": "/silvie-site/static/js/787.5fd9ca3f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2fea3ed6.css",
-    "static/js/main.3d5a8b9e.js"
+    "static/css/main.731dd312.css",
+    "static/js/main.d4f4f92a.js"
   ]
 }
