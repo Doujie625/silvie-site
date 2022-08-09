@@ -3,8 +3,6 @@ import { Routes, Route, Link, Navigate } from "react-router-dom";
 import { useState, Component, useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'
 
-import { AiOutlineMenu } from 'react-icons/ai'
-
 import Home from './Components/Pages/Home'
 import Contact from './Components/Pages/Contact'
 import Individual from './Components/Pages/Individual'
@@ -13,7 +11,8 @@ import Books from './Components/Pages/Books'
 import Resources from './Components/Pages/Resources'
 import Testimonials from './Components/Pages/Testimonials'
 
-import logo from './images/logo-text_03.gif'
+import NavBar from './Components/Nav/NavBar';
+
 import home from './images/b.home.jpg'
 import contact from './images/b.contact.jpg'
 import individual from './images/b.individual.jpg'
@@ -67,27 +66,8 @@ function App() {
   return (
 
     <div className="App">
-      <nav className='Nav-upper'>
-          <div className='logo'>
-            <Link to="/" > <img className="Home" src={logo} onClick={handleImg}/></Link>
-          </div>
-          <div className='bg-image' style={{backgroundImage: `url(${navImg})`}}>
-            <div className='links'>
-              {/* <Link to="Contact" ><a className='Contact' onClick={handleImg}>Contact</a></Link>| */}
-              <Link to="/Individual" className='Private_Lessons' onClick={handleImg}>Private Lessons</Link>|
-              <Link to="/Pronounciation" className='Pronounciation' onClick={handleImg}>Pronounciation</Link>|
-              <Link to="/Books" className='Books' onClick={handleImg}>Books</Link>|
-              <Link to="/Resources" className='Resources' onClick={handleImg}>Resources</Link>|
-              <Link to="/Testimonials" className='Testimonials' onClick={handleImg}>Testimonials</Link>
-            </div>
-          </div>
-          <div className='hamburgerDrop'>
-            <AiOutlineMenu size='40px' >
-            </AiOutlineMenu>
-          </div>
-
-      </nav>
-      
+        <NavBar handleImg={handleImg}/>
+        
       <main>
         <Test page={page} />
         <div className='Routes'>
