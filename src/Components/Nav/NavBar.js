@@ -10,8 +10,8 @@ const NavBar = (props) => {
     const handleImg = props.handleImg
     return (
         <div className="Nav">
-            <nav className="links">
-                <div>
+            <nav className="links" id="font-face-gm">
+                <div className="logo">
                     <Link to="/" > <img className="Home" src={logo} onClick={handleImg}/></Link>
                 </div>
                 <div className="nav-links">

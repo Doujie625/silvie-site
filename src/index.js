@@ -4,6 +4,8 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter as Router } from "react-router-dom";
+import './fonts/URW_Art_Gothic_W01_Normal.ttf'
+import './fonts/artgothicbold.ttf'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

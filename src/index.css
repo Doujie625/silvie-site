@@ -11,3 +11,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: "Art_Gothic";
+  src: local("Art_Gothic"),
+  url("/Users/devinjansa/Freelance/cestina/silvie-site/src/fonts/URW_Art_Gothic_W01_Normal.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Art_Gothic_2";
+  src: local("Art_Gothic_2"),
+  url("/Users/devinjansa/Freelance/cestina/silvie-site/src/fonts/artgothicbold.ttf") format("truetype");
+  font-weight: bold;
+}

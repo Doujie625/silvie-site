@@ -2,7 +2,6 @@
   grid-column: 1 / 2;
 }
 a {
-  color: blue;
   padding: 2px;
 }
 
@@ -17,7 +16,6 @@ a {
 li {
   list-style-image: url(/Users/devinjansa/Freelance/cestina/silvie-site/src/images/bullet.gif);
 }
-
 
 .format {
   display: grid;
@@ -48,6 +46,14 @@ li {
 .Routes {
   width: min(100% - 2rem);
   margin-inline: auto;
+}
+
+/* #font-face-gm {
+  font-family: "Art_Gothic";
+} */
+
+#font-face-gm {
+  font-family: "Art_Gothic_2";
 }
 
 
