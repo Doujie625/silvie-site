@@ -3,6 +3,7 @@ import { AiOutlineMenu } from 'react-icons/ai'
 import { useState } from 'react'
 import logo from './../../images/logo-text_03.gif'
 import NavLinks from "./NavLinks";
+import css from './../Css/Nav.css'
 
 const NavBar = (props) => {
     const [open, setOpen] = useState(false)

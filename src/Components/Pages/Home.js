@@ -11,7 +11,6 @@ const Home = function() {
 
             <br></br>
             <div className="body">
-
                 <div className="title">
                     <img src={crest} />
                     <span className="title_words">Local and International Instruction</span>

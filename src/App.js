@@ -1,7 +1,8 @@
 import './App.css';
+import './Components/Css/Nav.css'
+import './Components/Css/Component.css'
 import { Routes, Route, Link, Navigate } from "react-router-dom";
 import { useState, Component, useEffect } from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css'
 
 import Home from './Components/Pages/Home'
 import Contact from './Components/Pages/Contact'
