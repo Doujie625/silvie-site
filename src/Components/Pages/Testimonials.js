@@ -1,6 +1,6 @@
 import React from "react"
 import test_logo from './../../images/sub.testimonials.gif'
-import silvie from './../../images/Silvie_153-adj-285x.jpg'
+import crest from './../../images/cz-red.gif'
 
 
 
@@ -10,8 +10,11 @@ const Testimonials= function() {
         <div className="Home">
             <br></br>
             <div className="body">
+                <div className="title">
+                    <img src={crest} />
+                    <span className="title_words">Testimonials from My Students</span>
+                </div><br/>
                 <div className="left"> 
-                    <img src={test_logo} /><br/><br/>
                 "I highly recommend Silvie as a Czech language instructor. Silvie is a 
                 native speaker of Czech and fluent in English. She is able to explain 
                 complicated grammar in an easy to understand manner. She is very good 

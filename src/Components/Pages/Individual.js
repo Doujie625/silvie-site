@@ -1,6 +1,6 @@
 import React from "react"
 import ind_logo from './../../images/sub.individual.gif'
-import silvie from './../../images/Silvie_085-adj-285x.jpg'
+import crest from './../../images/cz-red.gif'
 
 import Test from "./Test"
 
@@ -11,8 +11,11 @@ const Individual = function() {
 
             <br></br>
             <div className="body">
+                <div className="title">
+                    <img src={crest} />
+                    <span className="title_words">Individual Czech Lessons</span>
+                </div><br/>
                 <div className="left"> 
-                    <img src={ind_logo} /><br/><br/>
                 Local and international instruction available.
                 <br/><br/>
                 Face to face instruction:<br/><br/>

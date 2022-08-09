@@ -1,6 +1,6 @@
 import React from "react"
 import books_logo from './../../images/sub.books.gif'
-import silvie from './../../images/Silvie_120-adj-285x.jpg'
+import crest from './../../images/cz-red.gif'
 
 
 const Books = function() {
@@ -9,8 +9,11 @@ const Books = function() {
         <div className="Home">
             <br></br>
             <div className="body">
+                <div className="title">
+                    <img src={crest} />
+                    <span className="title_words">Czech Textbooks and Dictionaries</span>
+                </div><br/>
                 <div className="left"> 
-                <img src={books_logo} /><br/><br/>
                 I use the following two textbooks with most of my beginner students. 
                 I highly recommend these books:<br/><br/>
 

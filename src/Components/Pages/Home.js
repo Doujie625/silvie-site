@@ -1,6 +1,6 @@
 import React from "react"
 import home_logo from './../../images/sub.home.gif'
-import silvie from './../../images/Silvie_046-adj-285x.jpg'
+import crest from './../../images/cz-red.gif'
 
 import Test from "./Test"
 
@@ -11,8 +11,12 @@ const Home = function() {
 
             <br></br>
             <div className="body">
+
+                <div className="title">
+                    <img src={crest} />
+                    <span className="title_words">Local and International Instruction</span>
+                </div><br/>
                 <div className="left"> 
-                    <img src={home_logo} /><br/><br/>
                 My name is Silvie Opatrn and I am a native Czech speaker. 
                 I was born in Prague and lived in the Czech Republic until the age of 18.
                 <br/><br/>

@@ -1,6 +1,6 @@
 import React from "react"
 import res_logo from './../../images/sub.resources.gif'
-import silvie from './../../images/Silvie_265-adj-285x.jpg'
+import crest from './../../images/cz-red.gif'
 
 
 const Resources = function() {
@@ -9,8 +9,11 @@ const Resources = function() {
         <div className="Home">
             <br></br>
             <div className="body">
+                <div className="title">
+                    <img src={crest} />
+                    <span className="title_words">Resources on the Internet</span>
+                </div><br/>
                 <div className="left"> 
-                <img src={res_logo} /><br/><br/>
                 <ul>
                     <li>www.czech.cz Czech.cz: Official site for the Czech Republic; it 
                         functions as a guide to the country and its people, institutions, 

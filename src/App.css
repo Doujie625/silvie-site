@@ -3,7 +3,12 @@
   /* position: absolute; */
   text-align: center;
   justify-content: center;
-  display: flex
+  display: flex;
+}
+
+.hamburgerDrop {
+  align-items: center;
+  display: flex;
 }
 
 .bg-image{
@@ -22,6 +27,14 @@ a {
 .body {
   display: grid;
   grid-template-rows: 3fr, 1fr;
+}
+.title {
+  font-size: 36px;
+}
+.title_words {
+  padding: 10px;
+  color: #06005a; 
+  text-shadow: 1px 1px black;
 }
 
 li {
@@ -58,23 +71,29 @@ li {
 }
 
 .Routes {
-  margin: 100px;
+  width: min(100% - 2rem);
+  margin-inline: auto;
 }
 
-@media screen and (min-width: 2000px) {
-  
+@media screen and (max-width: 2000px) {
+  .hamburgerDrop {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 990px) {
-  
+  .hamburgerDrop {
+    display: none;
+  }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 700px) {
   .bg-image {
     display: none;
   }
-
-
+  .hamburgerDrop {
+    display: flex;
+  }
 
 
   .format {

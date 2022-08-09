@@ -1,6 +1,6 @@
 import React from "react"
 import pron_logo from './../../images/sub.pronunciation.gif'
-import silvie from './../../images/Silvie_184-adj-285x.jpg'
+import crest from './../../images/cz-red.gif'
 
 const Pronounciation = function() {
     
@@ -8,8 +8,11 @@ const Pronounciation = function() {
         <div className="Home">
             <br></br>
             <div className="body">
+                <div className="title">
+                    <img src={crest} />
+                    <span className="title_words">Czech Alphabet and Sounds</span>
+                </div><br/>
                 <div className="left"> 
-                    <img src={pron_logo} /><br/><br/>
                     The Czech Alphabet
                 <br/>
                 {/* Insert Table Componenet Here */}<br/>
