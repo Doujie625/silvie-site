@@ -1,0 +1,19 @@
+.silvie_image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 7px;
+}
+
+.format {
+    background-color: #3655b3;
+    /* background-color: #06005a; */
+    color: white;
+    font-size: larger;
+}
+.email {
+    text-decoration: none;
+    color: inherit;
+}
+.email:hover {
+    color: #06005a
+}
