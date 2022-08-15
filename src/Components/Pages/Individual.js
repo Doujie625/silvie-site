@@ -2,8 +2,6 @@ import React from "react"
 import ind_logo from './../../images/sub.individual.gif'
 import crest from './../../images/cz-red.gif'
 
-import Test from "./Test"
-
 const Individual = function() {
     
     return (
@@ -12,7 +10,7 @@ const Individual = function() {
             <br></br>
             <div className="body">
                 <div className="title">
-                    <img src={crest} />
+                    <img src={crest} className="img"/>
                     <span className="title_words">Individual Czech Lessons</span>
                 </div><br/>
                 <div className="left"> 

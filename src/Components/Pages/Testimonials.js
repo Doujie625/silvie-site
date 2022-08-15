@@ -11,7 +11,7 @@ const Testimonials= function() {
             <br></br>
             <div className="body">
                 <div className="title">
-                    <img src={crest} />
+                    <img src={crest} className="img"/>
                     <span className="title_words">Testimonials from My Students</span>
                 </div><br/>
                 <div className="left"> 

@@ -10,7 +10,7 @@ const Resources = function() {
             <br></br>
             <div className="body">
                 <div className="title">
-                    <img src={crest} />
+                    <img src={crest} className="img"/>
                     <span className="title_words">Resources on the Internet</span>
                 </div><br/>
                 <div className="left"> 

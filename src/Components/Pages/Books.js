@@ -10,7 +10,7 @@ const Books = function() {
             <br></br>
             <div className="body">
                 <div className="title">
-                    <img src={crest} />
+                    <img src={crest} className="img"/>
                     <span className="title_words">Czech Textbooks and Dictionaries</span>
                 </div><br/>
                 <div className="left"> 

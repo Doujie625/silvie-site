@@ -5,12 +5,13 @@ import { Routes, Route, Link, Navigate } from "react-router-dom";
 import { useState, Component, useEffect } from 'react';
 
 import Home from './Components/Pages/Home'
-import Contact from './Components/Pages/Contact'
+import Contact from './Components/Pages/Contact';
 import Individual from './Components/Pages/Individual'
 import Pronounciation from './Components/Pages/Pronounciation'
 import Books from './Components/Pages/Books'
 import Resources from './Components/Pages/Resources'
 import Testimonials from './Components/Pages/Testimonials'
+import Contact_bar from './Components/Pages/Contact_bar';
 
 import NavBar from './Components/Nav/NavBar';
 
@@ -68,13 +69,12 @@ function App() {
 
     <div className="App">
         <NavBar handleImg={handleImg}/>
-        
+        <Contact_bar />
       <main>
-        <Test page={page} />
         <div className='Routes'>
           <Routes >
             <Route path="*" element={<Home />} />
-            {/* <Route path="/Contact" element={<Contact />} /> */}
+            <Route path="/Contact" element={<Contact />} />
             <Route path="/Individual" element={<Individual />} />
             <Route path="/Pronounciation" element={<Pronounciation />} />
             <Route path="/Books" element={<Books />} />
@@ -83,6 +83,8 @@ function App() {
             <Route path="/Test" element={<Test />} />
           </Routes>
         </div>
+        <Test page={page} />
+
       </main>
     </div>
   );

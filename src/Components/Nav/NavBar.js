@@ -16,6 +16,9 @@ const NavBar = (props) => {
                 </div>
                 <div className="nav-links">
                     <div className="item">
+                        <Link to="/Contact" className='Contact' onClick={handleImg}>Contact</Link>
+                    </div>
+                    <div className="item">
                         <Link to="/Individual" className='Private_Lessons' onClick={handleImg}>Private Lessons</Link>
                     </div>
                     <div className="item">

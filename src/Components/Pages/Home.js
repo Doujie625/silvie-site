@@ -12,7 +12,7 @@ const Home = function() {
             <br></br>
             <div className="body">
                 <div className="title">
-                    <img src={crest} />
+                    <img src={crest} className="img"/>
                     <span className="title_words">Local and International Instruction</span>
                 </div><br/>
                 <div className="left"> 
