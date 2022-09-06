@@ -4,6 +4,10 @@ import crest from './../../images/cz-red.gif'
 
 
 const Resources = function() {
+
+    let openTab = url => {
+        window.open(url, '_blank', 'noopener,noreferrer')
+    }
     
     return (
         <div className="Home">
@@ -14,7 +18,41 @@ const Resources = function() {
                     <span className="title_words">Resources on the Internet</span>
                 </div><br/>
                 <div className="left"> 
-                <ul>
+                Online Translators
+                <br/><br/> 
+                <a className="resources" onClick={() => openTab('https://www.deepl.com/translator')}>DeepL Translator</a>
+                <br/><br/> 
+                <a className="resources" onClick={() => openTab('https://translate.google.com/?hl=en&tab=TT')}>Google Translate</a>
+                <br/><br/> 
+                <br/><br/> 
+                Online Dictionaries
+                <br/><br/> 
+                <a className="resources" onClick={() => openTab('https://www.slovnik.cz/')}>Slovnik.cz</a>
+                <br/><br/> 
+                <a className="resources" onClick={() => openTab('https://slovnik.seznam.cz/')}>Seznam.cz Slovník</a>
+                <br/><br/> 
+                <a className="resources" onClick={() => openTab('http://slovniky.centrum.cz/')}>Centrum.cz Slovník</a>
+                <br/><br/> 
+                
+                <br/><br/> 
+                <br/><br/> 
+                <br/><br/> 
+                <br/><br/> 
+                <br/><br/> 
+                <br/><br/> 
+                <br/><br/> 
+                <br/><br/> 
+                <br/><br/> 
+                <br/><br/> 
+                <br/><br/> 
+                <br/><br/> 
+                <br/><br/> 
+
+
+
+
+
+                {/* <ul>
                     <li>www.czech.cz Czech.cz: Official site for the Czech Republic; it 
                         functions as a guide to the country and its people, institutions, 
                         culture, and history.</li>
@@ -77,7 +115,7 @@ const Resources = function() {
                     <li>www.iffkv.cz Karlovy Vary International Film Festival.</li>
                     <li>www.rootsweb.com/~czewgw Czech Republic Genealogy website.</li>
                     
-                </ul>
+                </ul> */}
 
                 </div>
             </div>
