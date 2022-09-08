@@ -84,3 +84,9 @@ ul {
   font-family: "Art_Gothic_2";
 }
 
+.table {
+  border: solid #3655b3 3px;
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}

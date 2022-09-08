@@ -1,6 +1,7 @@
 import React from "react"
 import pron_logo from './../../images/sub.pronunciation.gif'
 import crest from './../../images/cz-red.gif'
+import Letters from "../Data/letters"
 
 const Pronounciation = function() {
     
@@ -22,7 +23,7 @@ const Pronounciation = function() {
                 Below is a chart of all the letters that you will encounter in Czech, with a guide to the rules of pronunciation.
                 <br/><br/> 
                 <br/><br/> 
-
+                <Letters/>
                 Insert Chart Here
                 <br/><br/> 
                 <br/><br/> 
