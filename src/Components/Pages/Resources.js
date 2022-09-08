@@ -33,23 +33,30 @@ const Resources = function() {
                 <br/><br/> 
                 <a className="resources" onClick={() => openTab('http://slovniky.centrum.cz/')}>Centrum.cz Slovník</a>
                 <br/><br/> 
-                
+                <br/><br/>
+                <a className="resources" onClick={() => openTab('https://forvo.com/languages/cs/')}>Forvo</a>: Czech pronunciation Dictionary
+                <br/><br/> 
+                <a className="resources" onClick={() => openTab('https://langpractice.com/czech/')}>Number Listening Practice</a>
                 <br/><br/> 
                 <br/><br/> 
+                Online resources to accompany the textbook series Čeština Expres 1-4 / Czech Express 1-4 by Lída Holá
                 <br/><br/> 
+                <a className="resources" onClick={() => openTab('CzechStepByStep.cz')}>Czech Step By Step</a>
                 <br/><br/> 
+                <a className="resources" onClick={() => openTab('https://www.czechstepbystep.cz/materialy-on-line')}>Materiály online</a>
                 <br/><br/> 
+                <a className="resources" onClick={() => openTab('https://www.czechstepbystep.cz/en/cestina-expres-1-online-practise')}>Online practice / exercises</a>
                 <br/><br/> 
+                <a className="resources" onClick={() => openTab('https://www.czechstepbystep.cz/en/kategorie/short-czech-news')}>Short Czech news</a>
                 <br/><br/> 
+                <br/><br/>
+                Online flashcards to build and maintain your vocabulary.
                 <br/><br/> 
+                <a className="resources" onClick={() => openTab('http://www.czechonlinetutor.com/cz/cesky-online/cestina-expres-1')}>flashcards 1</a>
                 <br/><br/> 
+                <a className="resources" onClick={() => openTab('http://www.czechonlinetutor.com/cz/cesky-online/cestina-expres-2')}>flashcards 2</a>
                 <br/><br/> 
-                <br/><br/> 
-                <br/><br/> 
-                <br/><br/> 
-
-
-
+                <a className="resources" onClick={() => openTab('http://www.czechonlinetutor.com/cz/cesky-online/cestina-expres-3')}>flashcards 3</a>
 
 
                 {/* <ul>
@@ -118,6 +125,7 @@ const Resources = function() {
                 </ul> */}
 
                 </div>
+                <br/><br/>
             </div>
         </div>
     )

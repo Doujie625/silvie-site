@@ -68,8 +68,6 @@ const Books = function() {
                 Moonwalking with Einstein: The Art and Science of Remembering Everything
                 <br/>
                 by Joshua Foer
-                <br/><br/>
-                <br/><br/>
     
                 {/* I highly recommend these books:<br/><br/>
 
@@ -118,8 +116,8 @@ const Books = function() {
                 {/* insert list6 */}
 
                 </div>
-
             </div>
+            <br/><br/>
         </div>
     )
 }

@@ -66,6 +66,16 @@ li {
   margin-inline: auto;
 }
 
+.left {
+  text-align: center;
+}
+
+ul {
+  text-align: left;
+  position: relative; 
+	display: inline-block; 
+}
+
 /* #font-face-gm {
   font-family: "Art_Gothic";
 } */

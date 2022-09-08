@@ -19,13 +19,15 @@ const Individual = function() {
                         <li>online via Zoom and Skype</li>
                         <li>over the phone</li>
                     </ul>
+                <br/>
                 Before I start working with a student, I send her an email that includes the following:<br/>
                     <ul>
                         <li>The Learning Style Inventory that determines the student's natural learning style</li> 
                         <li>Common characteristics of each learning style</li>    
                         <li>Study skills and strategies for each learning style</li>    
                         <li>A list of study skills and learning strategies for studying the Czech language</li>    
-                    </ul>             
+                    </ul>
+                <br/>         
                 As I work with the student, we further discuss various ways and strategies to study pronunciation, 
                 vocabulary, and grammar. Since every student learns differently, the key is to find what works 
                 for each individual student.
@@ -137,9 +139,8 @@ const Individual = function() {
                 In addition to using the above textbooks, I provide individualized handouts 
                 based on what students need to learn and practice. */}
                 </div>
-
-
             </div>
+            <br/><br/>
         </div>
     )
 }

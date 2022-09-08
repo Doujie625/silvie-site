@@ -15,12 +15,16 @@ const Contact = function() {
                     please do not hesitate to contact me.
 
                     <br/><br/>
-                    I live and teach in Seattle in the state of Washington in the United States. 
-                    I also offer distance instruction online via Skype and email and over the phone.
-                    <br/><br/>
                     Phone: (206) 779-0530
                     <br></br>
-                    Email: Silvie.Opatrna@gmail.com     
+                    <br></br>
+                    Email: Silvie.Opatrna@gmail.com  
+                    <br></br>
+                    <br></br>
+                    I divide my time between the Czech Republic and Kerrville, Texas in the United States.
+                    <br></br>
+                    <br></br>
+   
                 </div>
             </div>
         </div>

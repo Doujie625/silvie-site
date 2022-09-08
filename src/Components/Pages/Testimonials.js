@@ -100,8 +100,8 @@ const Testimonials= function() {
                 <br/><br/>
                 - Leslie Ramier, Business Owner and English Teacher
                 </div>
-
             </div>
+            <br/><br/>
         </div>
     )
 

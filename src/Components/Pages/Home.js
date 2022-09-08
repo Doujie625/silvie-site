@@ -29,12 +29,14 @@ const Home = function() {
                         <li>online via Zoom and Skype</li>
                         <li>over the phone</li>
                     </ul>
+                <br/>
                 My services include:<br/>
                     <ul>
                         <li>translations from Czech to English and English to Czech</li>
                         <li>assisstance with correspondence for those who have Czech relatives and friends</li>
                         <li>teaching strategies of Czech pronounciation for opera singers</li>
                     </ul>
+                    <br/>
                 In addition to providing individual instruction, I teach Conversational Czech
                 courses at the University of Washington Experimental College in Seattle and 
                 Seattle Central Community College.<br/><br/>

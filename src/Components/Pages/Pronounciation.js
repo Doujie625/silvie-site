@@ -68,11 +68,10 @@ const Pronounciation = function() {
                 
                 Consonants<br/>
                 b, c, č, d, ď, f, g, h, ch, j, k, l, m, n, ň, p, q, r, ř, s, š, t, ť, v, w, x, z, ž<br/>
-                <br/><br/>
 
                 </div>
-
             </div>
+            <br/><br/>
         </div>
     )
 }
