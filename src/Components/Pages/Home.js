@@ -14,6 +14,7 @@ const Home = function() {
                 <div className="title">
                     <img src={crest} className="img"/>
                     <span className="title_words">Czech Lessons</span>
+
                 </div><br/>
                 <div className="left"> 
                 My name is Silvie Opatrná and I am a native Czech speaker. 

@@ -80,13 +80,76 @@ ul {
   font-family: "Art_Gothic";
 } */
 
+
 #font-face-gm {
   font-family: "Art_Gothic_2";
+}
+
+.Letters {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 
 .table {
   border: solid #3655b3 3px;
   border-collapse: collapse;
-  border-spacing: 0;
-  width: 100%;
+  /* border-spacing: 0; */
+  /* width: 100%; */
+  /* font-family: sans-serif; */
 }
+
+th {
+  background-color: #3655b3;
+  color: #fff;
+}
+
+th, td {
+  padding: .8rem;
+  font-size: 1.2rem;
+}
+
+tbody {
+  background-color: #fff;
+}
+
+@media screen and (max-width: 700px){
+  thead{
+    display: none;
+  }
+
+  td{
+    display: block;
+  }
+
+  td:first-child{
+    background-color: #3655b3;
+    color: #fff;
+    text-align: center;
+  }
+  td:nth-child(2)::before{
+    content: "Description of sound"
+  }
+  td:nth-child(3)::before{
+    content: "English sound"
+  }
+  td:nth-child(4)::before{
+    content: "Sample"
+  }
+  td:nth-child(5)::before{
+    content: "Translation"
+  }
+  td {
+    text-align: right;
+  }
+  td::before{
+    float: left;
+    margin-right: 3rem;
+    font-weight: bold;
+  }
+}
+
+
+
+
