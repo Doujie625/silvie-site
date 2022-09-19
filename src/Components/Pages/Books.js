@@ -1,7 +1,8 @@
 import React from "react"
 import books_logo from './../../images/sub.books.gif'
 import crest from './../../images/cz-red.gif'
-
+import { book_data } from './../Data/Book_data'
+import { Link, useLinkClickHandler } from "react-router-dom"
 
 const Books = function() {
     
@@ -16,13 +17,33 @@ const Books = function() {
                 <div className="left"> 
                 I use the following series of textbooks with most of my students:
                 <br/><br/>
-                Čeština Expres 1-4 / Czech Express 1-4 by Lída Holá
+                <div className="book_item">
+                    {book_data.map((book) => {
+                        if (book.id <= 3) 
+                        return (
+                            <div className="book" href={book.url}>
+                                <img className="book_image" src={book.image} />
+                                <div>{book.title}</div>
+                            </div>
+                        )
+                    })}
+                </div>
                 <br/><br/>
+                <br/><br/>
+
                 I also recommend
                 <br/><br/>
-                401 Czech Verbs by Bruce Davies and Jana Hejduková
+
+                {book_data.map((book) => {
+                    if (book.id > 3 && book.id < 6)
+                    return (
+                        <div href={book.url}>{book.title} by {book.author}
+                            <img className="book_image" src={book.image} />
+                        </div>
+                    )
+                })}
+
                 <br/><br/>
-                A Frequency Dictionary of Czech: Core Vocabulary for Learners by František Čermák and Michal Křen
                 <br/><br/>
                 Česky krok za krokem 1-2 / Czech Step by Step 1-2 by Lída Holá
                 <br/><br/>

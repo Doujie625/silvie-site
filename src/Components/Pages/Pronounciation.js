@@ -38,8 +38,6 @@ const Pronounciation = function() {
                 an unaccented syllable.  This is part of what makes English so difficult for foreigners to learn.  But in Czech, 
                 every vowel, whether it is accented or not, is pronounced clearly and distinctly.  The only two vowels that sound 
                 the same are “i” and “y,” and we will learn some basic rules as we go for when to use which one.
-
-
                 <br/>
                 <br/>
                 <br/>

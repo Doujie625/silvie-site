@@ -149,6 +149,20 @@ tbody {
     font-weight: bold;
   }
 }
+.book_item {
+  display: flex;
+  border: solid blue 1px;
+  justify-content: center;
+}
+.book {
+  height: 200px;
+  padding: 5px;
+  
+}
+
+.book_image { 
+  width: 200px
+}
 
 
 
