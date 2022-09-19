@@ -151,17 +151,29 @@ tbody {
 }
 .book_item {
   display: flex;
-  border: solid blue 1px;
   justify-content: center;
+  height: 400px;
+  margin: 20px;
 }
 .book {
-  height: 200px;
-  padding: 5px;
-  
+  height: 400px;
+  width: 250px;
+  padding: 0 20px 0 20px;
 }
 
 .book_image { 
-  width: 200px
+  width: 200px;
+  height: 300px;
+}
+.stripe {
+  background-color: #3655b3;
+  color: white;
+  font-size: larger;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
 
