@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/silvie-site/static/css/main.cf7551ed.css",
-    "main.js": "/silvie-site/static/js/main.87ef41c4.js",
+    "main.js": "/silvie-site/static/js/main.10b0cfc2.js",
     "static/js/787.5fd9ca3f.chunk.js": "/silvie-site/static/js/787.5fd9ca3f.chunk.js",
     "static/media/Prazke.jpeg": "/silvie-site/static/media/Prazke.cf68e80f22310766b191.jpeg",
     "static/media/Silvie_265-adj-285x.jpg": "/silvie-site/static/media/Silvie_265-adj-285x.2a5dd98daf3c9c234216.jpg",
@@ -13,13 +13,13 @@
     "static/media/Silvie_129-adj-285x.jpg": "/silvie-site/static/media/Silvie_129-adj-285x.18c6b2f15881a4724841.jpg",
     "static/media/Silvie_184-adj-285x.jpg": "/silvie-site/static/media/Silvie_184-adj-285x.052c4839fa551886cb7b.jpg",
     "static/media/Silvie_153-adj-285x.jpg": "/silvie-site/static/media/Silvie_153-adj-285x.79669a7445d7a6779ec9.jpg",
+    "static/media/Brneske.jpeg": "/silvie-site/static/media/Brneske.5e3b9b14456d9257b49d.jpeg",
     "static/media/CKZK2.jpg": "/silvie-site/static/media/CKZK2.1bd12a77a6519080ad80.jpg",
     "static/media/401CV.jpg": "/silvie-site/static/media/401CV.7f5ab683b048f7c0bf22.jpg",
     "static/media/b.home.jpg": "/silvie-site/static/media/b.home.08da9b401acbb22df5ba.jpg",
     "static/media/CE3.jpg": "/silvie-site/static/media/CE3.0f96ed2fedc889a8c536.jpg",
     "static/media/b.pronunciation.jpg": "/silvie-site/static/media/b.pronunciation.0dd7ac5aed122b9661da.jpg",
     "static/media/CE2.jpg": "/silvie-site/static/media/CE2.0e97260cd789c29ce7e6.jpg",
-    "static/media/Brneske.jpeg": "/silvie-site/static/media/Brneske.30bbc1b1d11c255a5d55.jpeg",
     "static/media/Becoming_fluent.jpg": "/silvie-site/static/media/Becoming_fluent.ca3c83e24910b4dff2cd.jpg",
     "static/media/b.testimonials.jpg": "/silvie-site/static/media/b.testimonials.b6c198f7ba26410d165c.jpg",
     "static/media/Povidani.jpg": "/silvie-site/static/media/Povidani.fc1b95ef9e010c2bf722.jpg",
@@ -38,11 +38,11 @@
     "static/media/Fluent_forever.webp": "/silvie-site/static/media/Fluent_forever.2b6e1eda6d298fc03872.webp",
     "index.html": "/silvie-site/index.html",
     "main.cf7551ed.css.map": "/silvie-site/static/css/main.cf7551ed.css.map",
-    "main.87ef41c4.js.map": "/silvie-site/static/js/main.87ef41c4.js.map",
+    "main.10b0cfc2.js.map": "/silvie-site/static/js/main.10b0cfc2.js.map",
     "787.5fd9ca3f.chunk.js.map": "/silvie-site/static/js/787.5fd9ca3f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cf7551ed.css",
-    "static/js/main.87ef41c4.js"
+    "static/js/main.10b0cfc2.js"
   ]
 }
