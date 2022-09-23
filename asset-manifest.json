@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/silvie-site/static/css/main.cf7551ed.css",
-    "main.js": "/silvie-site/static/js/main.10b0cfc2.js",
+    "main.css": "/silvie-site/static/css/main.7659c37a.css",
+    "main.js": "/silvie-site/static/js/main.856cd17c.js",
     "static/js/787.5fd9ca3f.chunk.js": "/silvie-site/static/js/787.5fd9ca3f.chunk.js",
     "static/media/Prazke.jpeg": "/silvie-site/static/media/Prazke.cf68e80f22310766b191.jpeg",
     "static/media/Silvie_265-adj-285x.jpg": "/silvie-site/static/media/Silvie_265-adj-285x.2a5dd98daf3c9c234216.jpg",
@@ -36,13 +36,15 @@
     "static/media/logo-text_03.gif": "/silvie-site/static/media/logo-text_03.8ab0b4c5f22d224c0775.gif",
     "static/media/CKZK1.webp": "/silvie-site/static/media/CKZK1.0cf07022d6d258bdf0ba.webp",
     "static/media/Fluent_forever.webp": "/silvie-site/static/media/Fluent_forever.2b6e1eda6d298fc03872.webp",
+    "static/media/Deepl.svg": "/silvie-site/static/media/Deepl.36a3b23e42be5388f89884f517097a71.svg",
+    "static/media/g-translate.svg": "/silvie-site/static/media/g-translate.2f2b1c41e895cabc5daf16baf1d0faa1.svg",
     "index.html": "/silvie-site/index.html",
-    "main.cf7551ed.css.map": "/silvie-site/static/css/main.cf7551ed.css.map",
-    "main.10b0cfc2.js.map": "/silvie-site/static/js/main.10b0cfc2.js.map",
+    "main.7659c37a.css.map": "/silvie-site/static/css/main.7659c37a.css.map",
+    "main.856cd17c.js.map": "/silvie-site/static/js/main.856cd17c.js.map",
     "787.5fd9ca3f.chunk.js.map": "/silvie-site/static/js/787.5fd9ca3f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cf7551ed.css",
-    "static/js/main.10b0cfc2.js"
+    "static/css/main.7659c37a.css",
+    "static/js/main.856cd17c.js"
   ]
 }
