@@ -1,7 +1,7 @@
 import React from "react"
 import res_logo from './../../images/sub.resources.gif'
 import crest from './../../images/cz-red.gif'
-
+import { resource_data } from "../Data/resource_data"
 
 const Resources = function() {
 
@@ -18,14 +18,27 @@ const Resources = function() {
                     <span className="title_words">Resources on the Internet</span>
                 </div><br/>
                 <div className="left"> 
+
+                <div className="stripe">
                 Online Translators
-                <br/><br/> 
-                <a className="resources" onClick={() => openTab('https://www.deepl.com/translator')}>DeepL Translator</a>
-                <br/><br/> 
-                <a className="resources" onClick={() => openTab('https://translate.google.com/?hl=en&tab=TT')}>Google Translate</a>
-                <br/><br/> 
-                <br/><br/> 
+                </div>
+                <div className="book_item">
+                    {resource_data.map((resource) => {
+                        if (resource.id < 3) 
+                        return (
+                            <div key={resource.id} className="book" onClick={() => openTab(resource.url)}>
+                                <a>{resource.name}
+                                <img className="book_image" src={resource.image} />
+                                </a>
+                            </div>
+                        )
+                    })}
+                </div>
+
+                <div className="stripe">
                 Online Dictionaries
+                </div>
+
                 <br/><br/> 
                 <a className="resources" onClick={() => openTab('https://www.slovnik.cz/')}>Slovnik.cz</a>
                 <br/><br/> 
@@ -39,7 +52,11 @@ const Resources = function() {
                 <a className="resources" onClick={() => openTab('https://langpractice.com/czech/')}>Number Listening Practice</a>
                 <br/><br/> 
                 <br/><br/> 
+
+                <div className="stripe">
                 Online resources to accompany the textbook series Čeština Expres 1-4 / Czech Express 1-4 by Lída Holá
+                </div>
+
                 <br/><br/> 
                 <a className="resources" onClick={() => openTab('CzechStepByStep.cz')}>Czech Step By Step</a>
                 <br/><br/> 
@@ -50,7 +67,11 @@ const Resources = function() {
                 <a className="resources" onClick={() => openTab('https://www.czechstepbystep.cz/en/kategorie/short-czech-news')}>Short Czech news</a>
                 <br/><br/> 
                 <br/><br/>
+                
+                <div className="stripe">
                 Online flashcards to build and maintain your vocabulary.
+                </div>
+
                 <br/><br/> 
                 <a className="resources" onClick={() => openTab('http://www.czechonlinetutor.com/cz/cesky-online/cestina-expres-1')}>flashcards 1</a>
                 <br/><br/> 

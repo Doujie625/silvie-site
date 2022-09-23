@@ -1,8 +1,14 @@
 import React from "react"
 import ind_logo from './../../images/sub.individual.gif'
 import crest from './../../images/cz-red.gif'
+import { book_data } from './../Data/Book_data'
+
 
 const Individual = function() {
+
+    let openTab = url => {
+        window.open(url, '_blank', 'noopener,noreferrer')
+    }
     
     return (
         <div className="Home">
@@ -54,93 +60,48 @@ const Individual = function() {
                 <br/><br/>
                 I greatly enjoy working with people on an individual basis and in small groups. Teaching is my passion and \
                 I love to share my knowledge of my first language with people.
-                <br/><br/>
-                <br/><br/>
-                I use the following series of textbooks with most of my students:
-                <br/><br/>
-                Čeština Expres 1-4 / Czech Express 1-4 by Lída Holá
-                <br/><br/>
-                <br/><br/>
-                I also recommend
-                <br/><br/>
-                401 Czech Verbs by Bruce Davies and Jana Hejduková
-                <br/><br/>
-                A Frequency Dictionary of Czech: Core Vocabulary for Learners by František Čermák and Michal Křen
-                <br/><br/>
-                Česky krok za krokem 1-2 / Czech Step by Step 1-2 by Lída Holá
-                <br/><br/>
-                In addition to using the above books, I provide numerous pronunciation handouts as well as individualized 
-                handouts based on what students need to learn and practice.
 
-
-{/* 
-                <br/><br/>
-                Local and international instruction available.
-                <br/><br/>
-                Face to face instruction:<br/><br/>
-                    <ul>
-                        <li>in Seattle in the United States</li>
-                    </ul><br/>
-                Face to face instruction:<br/>
-                    <ul>
-                        <li>online over Skype and email</li>
-                        <li>over the phone</li>
-                    </ul><br/>
-                Whether you want to speak Czech when you travel to the Czech Republic,
-                or you want to communicate with your partner, relatives, and friends, 
-                I tailor lessons to your needs and interests.<br/><br/>
-
-                Classes are interactive and fun. I focus on conversational Czech and 
-                developing listening and speaking skills. I spend a lot of time practicing 
-                pronunciation with my students so they feel confident speaking. We talk 
-                about various topics. I write up dialogues that serve as an inspiration 
-                to talk. We usually practice pronunciation, conversation, vocabulary, 
-                sentence structure, and grammar in every session.<br/><br/>
-
-                Students gain confidence in speaking with native Czech speakers when they 
-                visit the Czech Republic. They learn the proper pronunciation, vocabulary 
-                and grammar that enable them to carry on a conversation. They get a solid 
-                overview of language structure and are able to converse on many subjects.<br/><br/>
-
-                I am based in Seattle in the state of Washington in the United States. I 
-                can meet people face to face in Seattle. For those who live outside the 
-                Greater Seattle area, I offer distance instruction online via Skype and 
-                email and over the phone.<br/><br/>
-
-                I greatly enjoy working with people on an individual basis and in small 
-                groups. Teaching is my passion and I love to share my knowledge of my first 
-                language with people.<br/><br/>
-
-                I use the following textbooks with most of my students:<br/>
-                Title: Cestina hrou (Czech for Fun)<br/>
-                Author: Susan Kresin<br/>
-                Publisher: McGraw-Hill Primis Custom Publishing<br/>
-                ISBN: 0072455470<br/>
-                Pages: 566<br/><br/>
-
-                The book is very comprehensive and comes with 2 tapes. It was used as a textbook 
-                at the University of Washington. You can purchase it on the Internet 
-                (www.amazon.com).<br/><br/>
-
-                Title: Czech Step by Step: A Basic Course in the Czech Language for English Speaking Foreigners<br/>
-                Author: Lida Hola<br/>
-                Publisher: Fragment<br/>
-                ISBN: 8072004026<br/>
-                Pages: 288<br/><br/>
-
-                There is also a workbook that students find helpful:<br/><br/>
-
-                Title: Cestina hrou Pracovni sesit (Czech for Fun Workbook)<br/>
-                Author: Susan Kresin, Hope Subak-Kaspar<br/>
-                Publisher: McGraw-Hill Primis Custom Publishing<br/>
-                ISBN: 0070350132<br/>
-                Pages: 212<br/><br/>
-
-                In addition to using the above textbooks, I provide individualized handouts 
-                based on what students need to learn and practice. */}
                 </div>
             </div>
-            <br/><br/>
+            <div className="left"> 
+                    <div className="stripe">
+                        I use the following series of textbooks with most of my students:
+                    </div>
+                    <div className="book_item">
+                        {book_data.map((book) => {
+                            if (book.id <= 3) 
+                            return (
+
+                                <div key={book.id} className="book" onClick={() => openTab(book.url)}>
+                                    <a>
+                                        <img className="book_image" src={book.image} />
+                                        <div>{book.title}</div>
+                                        <div>{book.author}</div>
+                                        <div>{book.subtitle}</div>
+                                    </a>
+                                </div>
+                            )
+                        })}
+                    </div>
+                    <div className="stripe">
+                        I also recommend
+                    </div>
+                    <div className="book_item">
+                    {book_data.map((book) => {
+                            if (book.id > 3 && book.id < 8)
+                            return (
+                                <div key={book.id} className="book" onClick={() => openTab(book.url)}>
+                                    <a>
+                                        <img className="book_image" src={book.image} />
+                                        <div>{book.title}</div>
+                                        <div>{book.subtitle}</div>
+                                    </a>
+                                </div>
+                            )
+                        })}
+                    </div>
+                </div>
+
         </div>
     )
 }

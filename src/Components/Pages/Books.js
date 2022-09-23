@@ -5,6 +5,11 @@ import { book_data } from './../Data/Book_data'
 import { Link, useLinkClickHandler } from "react-router-dom"
 
 const Books = function() {
+
+
+    let openTab = url => {
+        window.open(url, '_blank', 'noopener,noreferrer')
+    }
     
     return (
         <div className="Home">
@@ -22,8 +27,9 @@ const Books = function() {
                         {book_data.map((book) => {
                             if (book.id <= 3) 
                             return (
-                                <div key={book.id} className="book">
-                                    <a href={book.url}>
+
+                                <div key={book.id} className="book" onClick={() => openTab(book.url)}>
+                                    <a>
                                         <img className="book_image" src={book.image} />
                                         <div>{book.title}</div>
                                         <div>{book.author}</div>
@@ -38,27 +44,12 @@ const Books = function() {
                     </div>
                     <div className="book_item">
                     {book_data.map((book) => {
-                            if (book.id > 3 && book.id < 6)
+                            if (book.id > 3 && book.id < 8)
                             return (
-                                <div key={book.id} className="book">
-                                    <a href={book.url}>
+                                <div key={book.id} className="book" onClick={() => openTab(book.url)}>
+                                    <a>
                                         <img className="book_image" src={book.image} />
                                         <div>{book.title}</div>
-                                        <div>{book.subtitle}</div>
-                                    </a>
-                                </div>
-                            )
-                        })}
-                    </div>
-                    <div className="book_item">
-                    {book_data.map((book) => {
-                            if (book.id > 5 && book.id < 8)
-                            return (
-                                <div key={book.id} className="book">
-                                    <a href={book.url}>
-                                        <img className="book_image" src={book.image} />
-                                        <div>{book.title}</div>
-                                        <div>{book.author}</div>
                                         <div>{book.subtitle}</div>
                                     </a>
                                 </div>
@@ -72,8 +63,8 @@ const Books = function() {
                     {book_data.map((book) => {
                             if (book.id > 7 && book.id < 13)
                             return (
-                                <div key={book.id} className="book">
-                                    <a href={book.url}>
+                                <div key={book.id} className="book" onClick={() => openTab(book.url)}>
+                                    <a>
                                         <img className="book_image" src={book.image} />
                                         <div>{book.title}</div>
                                         <div>{book.author}</div>
@@ -90,8 +81,8 @@ const Books = function() {
                     {book_data.map((book) => {
                             if (book.id > 12 && book.id < 18)
                             return (
-                                <div key={book.id} className="book">
-                                    <a href={book.url}>
+                                <div key={book.id} className="book" onClick={() => openTab(book.url)}>
+                                    <a>
                                         <img className="book_image" src={book.image} />
                                         <div>{book.title}</div>
                                         <div>{book.author}</div>

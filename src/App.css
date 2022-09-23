@@ -110,6 +110,11 @@ th, td {
   font-size: 1.2rem;
 }
 
+tr {
+  border: 2px solid #3655b3
+
+}
+
 tbody {
   background-color: #fff;
 }
@@ -152,18 +157,19 @@ tbody {
 .book_item {
   display: flex;
   justify-content: center;
-  height: 400px;
   margin: 20px;
+  height: 320px;
 }
 .book {
   height: 400px;
-  width: 250px;
   padding: 0 20px 0 20px;
+  width: 200px;
 }
 
 .book_image { 
-  width: 200px;
-  height: 300px;
+  width: 150px;
+  height: 225px;
+  
 }
 .stripe {
   background-color: #3655b3;
@@ -174,6 +180,10 @@ tbody {
   justify-content: center;
   align-items: center;
   width: 100%;
+}
+
+.red {
+  color: #ec1721
 }
 
 
