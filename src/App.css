@@ -153,15 +153,19 @@ tbody {
     margin-right: 3rem;
     font-weight: bold;
   }
+
+  .book_item {
+    flex-direction: column;
+
+  }
 }
 .book_item {
   display: flex;
+  align-items: center;
   justify-content: center;
   margin: 20px;
-  height: 320px;
 }
 .book {
-  height: 400px;
   padding: 0 20px 0 20px;
   width: 200px;
 }

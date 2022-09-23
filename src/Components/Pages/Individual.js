@@ -9,7 +9,7 @@ const Individual = function() {
     let openTab = url => {
         window.open(url, '_blank', 'noopener,noreferrer')
     }
-    
+
     return (
         <div className="Home">
 
@@ -62,7 +62,9 @@ const Individual = function() {
                 I love to share my knowledge of my first language with people.
 
                 </div>
-            </div>
+            </div>            
+            <br/>
+            <br/>
             <div className="left"> 
                     <div className="stripe">
                         I use the following series of textbooks with most of my students:
