@@ -31,7 +31,7 @@ function App() {
   const [page, setPage] = useState('Home')
 
   useEffect(() => {
-    console.log(page)
+    // console.log(page)
   }, [page])
 
   const handleImg = (e) => {
@@ -69,7 +69,7 @@ function App() {
 
     <div className="App">
         <NavBar handleImg={handleImg}/>
-        <Contact_bar />
+        <Contact_bar page={page}/>
       <main>
         <div className='Routes'>
           <Routes >

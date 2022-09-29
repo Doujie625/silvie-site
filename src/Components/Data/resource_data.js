@@ -2,6 +2,16 @@ import DeepL from "./../Resource_Icons/Deepl.svg"
 import Google from "./../Resource_Icons/g-translate.svg"
 
 
+import Seznam from "./../Resource_Icons/seznam_cz.svg"
+import Centrum from './../Resource_Icons/centrum.svg'
+import Forvo from './../Resource_Icons/forvo.svg'
+
+import CzechSbS from './../Resource_Icons/CzSbS.svg'
+
+import ce1 from './../Resource_Icons/ce1_logo.png'
+import ce2 from './../Resource_Icons/ce2_logo.png'
+import ce3 from './../Resource_Icons/ce3_logo.png'
+
 export const resource_data = [
     {
         id: 1,
@@ -19,72 +29,66 @@ export const resource_data = [
         id: 3,
         name: 'Sloknik.cz',
         image: '',
-        url: '',
+        url: 'https://www.slovnik.cz/',
     },
     {
         id: 4,
         name: 'Seznam.cz Slovnik',
-        image: '',
-        url: '',
+        image: Seznam,
+        url: 'https://slovnik.seznam.cz/',
     },
     {
         id: 5,
         name: 'Centrum.cz Slovniky',
-        image: '',
-        url: '',
+        image: Centrum,
+        url: 'http://slovniky.centrum.cz/',
     },
     {
         id: 6,
         name: 'Forvo',
-        image: '',
-        url: '',
+        image: Forvo,
+        url: 'https://forvo.com/languages/cs/',
     },
     {
         id: 7,
         name: 'Number Listening Practice',
         image: '',
-        url: '',
+        url: 'https://langpractice.com/czech/',
     },
     {
         id: 8,
         name: 'Czech Step By Step',
-        image: '',
-        url: '',
+        image: CzechSbS,
+        url: 'https://www.czechstepbystep.cz/materialy-on-line',
     },
     {
         id: 9,
-        name: 'Materiály online',
+        name: 'ONLINE PRACTICE / EXERCISES',
         image: '',
-        url: '',
+        url: 'https://www.czechstepbystep.cz/en/cestina-expres-1-online-practise',
     },
     {
         id: 10,
-        name: 'Online practice / exercises',
+        name: 'SHORT CZECH NEWS',
         image: '',
-        url: '',
+        url: 'https://www.czechstepbystep.cz/en/kategorie/short-czech-news',
     },
     {
         id: 11,
-        name: 'Short Czech news',
-        image: '',
-        url: '',
+        name: 'flashcards 1',
+        image: ce1,
+        url: 'http://www.czechonlinetutor.com/cz/cesky-online/cestina-expres-1',
     },
     {
         id: 12,
-        name: 'flashcards 1',
-        image: '',
-        url: '',
+        name: 'flashcards 2',
+        image: ce2,
+        url: 'http://www.czechonlinetutor.com/cz/cesky-online/cestina-expres-2',
     },
     {
         id: 13,
-        name: 'flashcards 2',
-        image: '',
-        url: '',
-    },
-    {
-        id: 14,
         name: 'flashcards 3',
-        image: '',
-        url: '',
+        image: ce3,
+        url: 'http://www.czechonlinetutor.com/cz/cesky-online/cestina-expres-3',
     },
 ]

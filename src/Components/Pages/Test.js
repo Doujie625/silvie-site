@@ -2,7 +2,6 @@ import React, {useState} from "react"
 import { testimonial_data } from "./../Data/Testimonials_data"
 
 const Test = function(props) {
-
     const silvie = testimonial_data.filter(image =>
         image.page === props.page
     )

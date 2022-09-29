@@ -7,7 +7,7 @@ const NavLinks = (props) => {
     return (
         <div className="drop">
             <div className="item">
-                <Link to="/" className='Homes' onClick={handleImg}>Home</Link>
+                <Link to="/" className='Home' onClick={handleImg}>Home</Link>
             </div>
             <div className="item">
                 <Link to="/Individual" className='Private_Lessons' onClick={handleImg}>Czech Lessons</Link>

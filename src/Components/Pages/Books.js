@@ -33,7 +33,7 @@ const Books = function() {
                                         <img className="book_image" src={book.image} />
                                         <div>{book.title}</div>
                                         <div>{book.author}</div>
-                                        <div>{book.subtitle}</div>
+                                        {/* <div>{book.subtitle}</div> */}
                                     </a>
                                 </div>
                             )
@@ -50,7 +50,7 @@ const Books = function() {
                                     <a>
                                         <img className="book_image" src={book.image} />
                                         <div>{book.title}</div>
-                                        <div>{book.subtitle}</div>
+                                        {/* <div>{book.subtitle}</div> */}
                                     </a>
                                 </div>
                             )
@@ -68,7 +68,7 @@ const Books = function() {
                                         <img className="book_image" src={book.image} />
                                         <div>{book.title}</div>
                                         <div>{book.author}</div>
-                                        <div>{book.subtitle}</div>
+                                        {/* <div>{book.subtitle}</div> */}
                                     </a>
                                 </div>
                             )
@@ -86,60 +86,12 @@ const Books = function() {
                                         <img className="book_image" src={book.image} />
                                         <div>{book.title}</div>
                                         <div>{book.author}</div>
-                                        <div>{book.subtitle}</div>
+                                        {/* <div>{book.subtitle}</div> */}
                                     </a>
                                 </div>
                             )
                         })}
                     </div>
-
-    
-                    {/* I highly recommend these books:<br/><br/>
-
-                    Title: Čeština hrou (Czech for Fun)<br/>
-                    Author: Susan Kresin<br/>
-                    Publisher: McGraw-Hill Primis Custom Publishing<br/>
-                    ISBN: 0072455470<br/>
-                    Pages: 566<br/>
-                    The book is very comprehensive and comes with 2 tapes.<br/><br/>
-
-                    Title: New Czech Step by Step<br/>
-                    Author: Lida Hola<br/>
-                    Publisher: Akropolis<br/>
-                    ISBN: 8086903079<br/>
-                    Pages: 240<br/><br/>
-
-                    There is also a workbook that students find helpful.<br/>
-                    Title: Čeština hrou Pracovní sešit (Czech for Fun Workbook)<br/>
-                    Author: Susan Kresin, Hope Subak-Kaspar<br/>
-                    Publisher: McGraw-Hill Primis Custom Publishing<br/>
-                    ISBN: 0070350132<br/>
-                    Pages: 212<br/><br/>
-
-                    Here is a list of other textbooks for learning the Czech language:<br/><br/>
-                    */}
-                    {/* insert list1 */}
-
-                    {/* Advanced textbooks for learning the Czech language:<br/><br/> */}
-
-                    {/* insert list2 */}
-
-                    {/* Czech-English and English-Czech dictionaries:<br/><br/> */}
-                    
-                    {/* insert list3 */}
-
-                    {/* Czech travel phrasebooks:<br/><br/> */}
-
-                    {/* insert list4 */}
-
-                    {/* Books on strategies for learning a foreign language:<br/><br/> */}
-
-                    {/* insert list5 */}
-
-                    {/* Other books:<br/><br/> */}
-
-                    {/* insert list6 */}
-
                 </div>
             </div>
             <br/><br/>

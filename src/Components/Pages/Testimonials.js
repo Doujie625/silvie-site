@@ -2,8 +2,6 @@ import React from "react"
 import test_logo from './../../images/sub.testimonials.gif'
 import crest from './../../images/cz-red.gif'
 
-
-
 const Testimonials= function() {
     
     return (
